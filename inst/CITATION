@@ -1,0 +1,8 @@
+bibentry(
+    title = "hubStyle: 'pkgdown' Template for hubverse Packages",
+    year = "2024",
+    author = "Anna Krystalli"
+    note = "R package version 0.0.0.9000",
+    bibtype = "Manual",
+    url = "https://github.com/hubverse/hubStyle"
+  )
