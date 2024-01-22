@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# hubStyle
+# hubStyle <img src="man/figures/logo.png" align="right" height="131" alt="" />
 
 <!-- badges: start -->
 
@@ -11,9 +11,13 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://www.r-pkg.org/badges/version/hubStyle)](https://CRAN.R-project.org/package=hubStyle)
 <!-- badges: end -->
 
-The goal of hubStyle is to …
+hubStyle provides a custom pkgdown template for hubverse packages. We
+use this to render our R package sites at
+<https://github.com/Infectious-Disease-Modeling-Hubs>. Please don’t use
+it for your own package if it’s not a hubvserse package.
 
-## Installation
+Inspired by [rotemplate](https://github.com/ropensci-org/rotemplate).
+\## Installation
 
 You can install the development version of hubStyle from
 [GitHub](https://github.com/) with:
@@ -23,13 +27,20 @@ You can install the development version of hubStyle from
 remotes::install_github("Infectious-Disease-Modeling-Hubs/hubStyle")
 ```
 
-## Example
+## Using the hubStyle template
 
-This is a basic example which shows you how to solve a common problem:
+To include the hubStyle template in your pkgdown site, add the following
+to your `_pkgdown.yml` file:
 
-``` r
-library(hubStyle)
-## basic example code
+``` yaml
+template:
+  package: hubStyle
+```
+
+You will also need to add the following to your `DESCRIPTION` file:
+
+``` yaml
+Config/Needs/website: Infectious-Disease-Modeling-Hubs/hubStyle
 ```
 
 ## Code of Conduct
