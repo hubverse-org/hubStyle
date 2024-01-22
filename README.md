@@ -44,6 +44,13 @@ You will also need to add the following to your `DESCRIPTION` file:
 Config/Needs/website: Infectious-Disease-Modeling-Hubs/hubStyle
 ```
 
+You can use the following R code to add the above to your `DESCRIPTION`
+file:
+
+``` r
+hubDevs::add_website_needs()
+```
+
 ## Code of Conduct
 
 Please note that the hubStyle package is released with a [Contributor
