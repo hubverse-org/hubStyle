@@ -17,7 +17,8 @@ use this to render our R package sites at
 it for your own package if it’s not a hubvserse package.
 
 Inspired by [rotemplate](https://github.com/ropensci-org/rotemplate).
-\## Installation
+
+## Installation
 
 You can install the development version of hubStyle from
 [GitHub](https://github.com/) with:
