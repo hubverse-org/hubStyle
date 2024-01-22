@@ -1,6 +1,6 @@
 template:
   includes:
-    before_title: '<a href="https://hubdocs.readthedocs.io/en/latest/"><img src="https://raw.githubusercontent.com/Infectious-Disease-Modeling-Hubs/hubStyle/main/inst/pkgdown/assets/hubverse-light-blue-sml.png" id="logo" alt="hubverse"></a>'
+    before_title: '<a href="https://hubdocs.readthedocs.io/en/latest/"><img src="https://raw.githubusercontent.com/Infectious-Disease-Modeling-Hubs/hubStyle/main/inst/pkgdown/assets/hubverse-light-blue-sml.png" id="logo" height=25 alt="hubverse"></a>'
   bootstrap: 5
   bslib:
     bg: "white"
