@@ -1,31 +1,37 @@
 template:
   includes:
-    before_title: '<a href="https://hubdocs.readthedocs.io/en/latest/"><img src="https://raw.githubusercontent.com/Infectious-Disease-Modeling-Hubs/hubStyle/main/inst/pkgdown/assets/hubverse-light-blue-sml.png" id="logo" height=25 alt="hubverse"></a>'
+    before_title: '<a href="https://hubdocs.readthedocs.io/en/latest/"><img src="https://raw.githubusercontent.com/Infectious-Disease-Modeling-Hubs/hubStyle/main/inst/hubverse.png" id="logo" height=30 alt="hubverse"></a>'
   bootstrap: 5
   bslib:
     bg: "white"
     fg: "#283140"
-    primary: "#3C88BE"
+    primary: "#579aca"
+    base_font: '-apple-system,BlinkMacSystemFont,Segoe UI,"Helvetica Neue",Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol'
+    base_font_size: 1em;
+    headings_font_weight: "600"
+    headings-color: "#5c677e"
     dropdown-link-hover-bg: "#7AC6F4"
     dropdown-link-hover-color: "white"
     dropdown-link-active-color: "white"
-    headings-color: "#5c677e"
     navbar-brand-font-size: "2rem"
-    navbar-light-color: "white"
-    navbar-light-brand-color: "white"
-    navbar-light-brand-hover-color: "white"
-    text-muted: "#54585F"
-    navbar-light-hover-color: "white"
+    navbar-light-color: "$headings-color"
+    navbar-light-brand-color: "$headings-color"
+    navbar-light-brand-hover-color: "$headings-color"
+    navbar-bg: "white"
+    text-muted: grey33
+    navbar-dark-hover-color: "white"
+    navbar-dark-color: "white"
+    navbar-dark-brand-color: "white"
+    navbar-dark-brand-hover-color: "white"
     gray-300: "#dee2e6"
     border-radius: 0.5rem
     btn-border-radius: 0.25rem
-    base_font: {google: "Roboto"}
-    heading_font: {google: "Poppins"}
+    link-decoration: "none"
 
 navbar:
   structure:
     left:
-    right: [search, intro, reference, articles, tutorials, news, github]
+    right: [search, intro, reference, articles, tutorials, news, github, toc]
 
 
 authors:

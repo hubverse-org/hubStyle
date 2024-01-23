@@ -1,18 +1,24 @@
+$hubverse-grey: mix($headings-color, $body-bg, 10%) !default;
+
 /* Navbar */
 .navbar {
-  background: linear-gradient(94.45deg,#3C88BE 1.55%,#7AC6F4 98.46%);
   transition: all 0.3s ease;
-  box-shadow: 0 0 15px 5px rgba(0,0,0,.15);
-  border: none;
-  min-height: 40px;
+  border-bottom: 3px solid $hubverse-grey;
+  min-height: 45px;
+  background-color: $body-bg !important;
 }
 
 .navbar a.nav-link {
 	font-size: 1.2rem;
 }
 
-.navbar-nav a:hover {
-  text-decoration: underline;
+
+.navbar .navbar-brand {
+   font-family: 'Poppins', sans-serif;
+  }
+
+.page-header {
+    border-bottom: none;
 }
 
 #hexlogo {
@@ -24,7 +30,7 @@
 }
 
 img.logo {
-  height: 110px;
+  width: 120px;
 }
 
 @media screen and (min-width: 768px) {
@@ -32,8 +38,9 @@ img.logo {
     height: 30px;
   }
   .navbar .navbar-brand {
+    padding-top: 13px;
     line-height: 19px;
-    padding-left: 5px;
+    padding-left: 10px;
   }
   .navbar .navbar-form {
     margin: 3px 5px 3px 5px;
@@ -42,8 +49,19 @@ img.logo {
 
 @media screen and (max-width: 480px) {
   .navbar .navbar-brand {
+    padding-top: 10px;
     padding-right: 0;
     margin-right: -120px;
+    padding-left: 5px;
+    font-size: 1.2rem;
+  }
+
+ .nav-text.text-muted.me-auto {
+    font-size: 0.8rem;
+ }
+
+  #logo img {
+    height: 15px !important;
   }
 }
 
@@ -55,14 +73,109 @@ img.logo {
 }
 
 .nav-text.text-muted.me-auto {
-  color: white !important;
+  color: #3b88bfff !important;
 }
 
+/*
 main h1 img {
   max-width: 120px;
 }
+*/
 
 /* Reference index. To make it very different from h2 */
 .template-reference-index h3 {
   font-size: 1.5rem;
+}
+
+
+.heading-style, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.15;
+  margin: 2.75rem 0 1.05rem;
+}
+
+/* table of contents -------------------------------------------------------- */
+$pkgdown-toc-border-width: 3px !default;
+$pkgdown-toc-border-color: $primary !default;
+$pkgdown-toc-active-color: $primary !default;
+$pkgdown-toc-hover-bg: change-color($primary, $alpha: 0.1) !default;
+$pkgdown-toc-hover-color: $primary !default;
+
+// needed for scrollspy
+body {position: relative;}
+
+#toc > .nav {
+  margin-bottom: 1rem;
+
+  h2 {
+      font-size: $font-size-lg;
+  }
+
+  li { font-size: 90%;
+  }
+
+  a.nav-link {
+    color: inherit;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 2px;
+    @include border-radius(0);
+
+    &:hover, &:focus {
+      background-color: $pkgdown-toc-hover-bg;
+      color: $primary;
+      text-decoration: none;
+      font-weight: 700 !important;
+      border-left: $pkgdown-toc-border-width solid $pkgdown-toc-border-color;
+    }
+    &.active {
+      background-color: transparent !important;
+      color: $primary;
+      font-weight: 700 !important;
+      border-left: 3px solid $primary;
+    }
+  }
+}
+
+
+aside {
+  padding-top: 1.5rem;
+  border-left: 1px solid $border-color;
+
+  h2 {
+    margin-top: 1.2rem;
+    font-size: $font-size-lg;
+  }
+  .roles {
+    color: mix($body-color, $body-bg, 80%);
+  }
+
+  .list-unstyled li { margin-bottom: 0.5rem; }
+  .dev-status .list-unstyled li { margin-bottom: 0.1rem; }
+}
+
+// Add some visual distinction between content and "sidebar" on mobile
+@include media-breakpoint-down(sm) {
+  aside {
+    margin: 0.5rem;
+    width: calc(100vw - 1rem);
+    background-color: $gray-100;
+    border-color: $border-color;
+    @include border-radius($border-radius);
+
+    h2:first-child {
+      margin-top: 1rem;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #logo > .img {
+
+}
+  .navbar .navbar-brand {
+    padding-top: 10px;
+    padding-right: 0;
+    margin-right: -120px;
+  }
 }
