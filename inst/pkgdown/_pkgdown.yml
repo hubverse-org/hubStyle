@@ -19,7 +19,9 @@ template:
     gray-300: "#dee2e6"
     border-radius: 0.5rem
     btn-border-radius: 0.25rem
-    base_font: {google: "Poppins"}
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Poppins"}
+
 navbar:
   structure:
     left:
