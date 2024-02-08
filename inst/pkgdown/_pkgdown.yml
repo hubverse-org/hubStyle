@@ -38,3 +38,11 @@ authors:
   hubverse:
     href: https://hubdocs.readthedocs.io/en/latest/
     html: <img src='https://hubdocs.readthedocs.io/en/latest/_static/LOGO-hubverse.png' height=24>
+
+footer:
+  structure:
+    left: developed_by
+    right: [built_with, netlify, legal]
+  components:
+    legal: Provided without **any warranty**.
+    netlify: PR Previews built by [Netlify](https://www.netlify.com).

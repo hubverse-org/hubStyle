@@ -2,12 +2,3 @@ url: ~
 template:
   package: hubStyle
 
-footer:
-  structure:
-    left: developed_by
-    right: [built_with, netlify, legal]
-  components:
-    legal: Provided without **any warranty**.
-    netlify: PR Previews built by [Netlify](https://www.netlify.com).
-
-
