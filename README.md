@@ -13,7 +13,7 @@ status](https://www.r-pkg.org/badges/version/hubStyle)](https://CRAN.R-project.o
 
 hubStyle provides a custom pkgdown template for hubverse packages. We
 use this to render our R package sites at
-<https://github.com/Infectious-Disease-Modeling-Hubs>. Please don’t use
+<https://github.com/hubverse-org>. Please don’t use
 it for your own package if it’s not a hubvserse package.
 
 Inspired by [rotemplate](https://github.com/ropensci-org/rotemplate).
@@ -25,7 +25,7 @@ You can install the development version of hubStyle from
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("Infectious-Disease-Modeling-Hubs/hubStyle")
+remotes::install_github("hubverse-org/hubStyle")
 ```
 
 ## Using the hubStyle template
@@ -41,7 +41,7 @@ template:
 You will also need to add the following to your `DESCRIPTION` file:
 
 ``` yaml
-Config/Needs/website: Infectious-Disease-Modeling-Hubs/hubStyle
+Config/Needs/website: hubverse-org/hubStyle
 ```
 
 You can use the following R code to add the above to your `DESCRIPTION`

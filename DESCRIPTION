@@ -13,6 +13,6 @@ RoxygenNote: 7.2.3
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: https://github.com/Infectious-Disease-Modeling-Hubs/hubStyle
-BugReports: https://github.com/Infectious-Disease-Modeling-Hubs/hubStyle/issues
+URL: https://github.com/hubverse-org/hubStyle
+BugReports: https://github.com/hubverse-org/hubStyle/issues
 Config/Needs/website: rmarkdown
