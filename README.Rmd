@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 hubStyle provides a custom pkgdown template for hubverse packages. 
-We use this to render our R package sites at <https://github.com/Infectious-Disease-Modeling-Hubs>. 
+We use this to render our R package sites at <https://github.com/hubverse-org>. 
 Please don’t use it for your own package if it’s not a hubvserse package.
 
 Inspired by [rotemplate](https://github.com/ropensci-org/rotemplate).
@@ -33,7 +33,7 @@ You can install the development version of hubStyle from [GitHub](https://github
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("Infectious-Disease-Modeling-Hubs/hubStyle")
+remotes::install_github("hubverse-org/hubStyle")
 ```
 
 ## Using the hubStyle template
@@ -48,7 +48,7 @@ template:
 You will also need to add the following to your `DESCRIPTION` file:
 
 ```{yaml needs}
-Config/Needs/website: Infectious-Disease-Modeling-Hubs/hubStyle
+Config/Needs/website: hubverse-org/hubStyle
 ```
 
 
