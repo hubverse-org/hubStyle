@@ -28,6 +28,9 @@ template:
     btn-border-radius: 0.25rem
     link-decoration: "none"
 
+development:
+  mode: auto
+
 navbar:
   structure:
     left:
