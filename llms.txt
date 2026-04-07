@@ -1,0 +1,62 @@
+# hubStyle
+
+hubStyle provides a custom pkgdown template for hubverse packages. We
+use this to render our R package sites at
+<https://github.com/hubverse-org>. Please don’t use it for your own
+package if it’s not a hubvserse package.
+
+Inspired by [rotemplate](https://github.com/ropensci-org/rotemplate).
+
+## Installation
+
+You can install the development version of hubStyle from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("hubverse-org/hubStyle")
+```
+
+## Using the hubStyle template
+
+To include the hubStyle template in your pkgdown site, add the following
+to your `_pkgdown.yml` file:
+
+``` yaml
+template:
+  package: hubStyle
+```
+
+You will also need to add the following to your `DESCRIPTION` file:
+
+``` yaml
+Config/Needs/website: hubverse-org/hubStyle
+```
+
+You can use the following R code to add the above to your `DESCRIPTION`
+file:
+
+``` r
+hubDevs::add_website_needs()
+```
+
+## Code of Conduct
+
+Please note that the hubStyle package is released with a [Contributor
+Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project,
+you agree to abide by its terms.
+
+## Contributing
+
+Interested in contributing back to the open-source Hubverse project?
+Learn more about how to [get involved in the Hubverse
+Community](https://hubverse.io/community/) or [how to contribute to the
+hubStyle package](CONTRIBUTING.md).
+
+# 
+
+# Articles
+
+### All vignettes
+
+- [test_1](test_1.md):
