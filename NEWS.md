@@ -1,3 +1,3 @@
-# hubStyle 0.0.1.9000
+# hubStyle 0.0.2
 
 * Add package-level documentation and placeholder test to fix r-universe build failures.
