@@ -13,6 +13,7 @@ You can install the development version of hubStyle from
 [GitHub](https://github.com/) with:
 
 ``` r
+
 # install.packages("remotes")
 remotes::install_github("hubverse-org/hubStyle")
 ```
@@ -37,6 +38,7 @@ You can use the following R code to add the above to your `DESCRIPTION`
 file:
 
 ``` r
+
 hubDevs::add_website_needs()
 ```
 
