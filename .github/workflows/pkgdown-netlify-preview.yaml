@@ -57,7 +57,7 @@ jobs:
       - name: Deploy PR preview to Netlify
         if: contains(env.isPush, 'false')
         id: netlify-deploy
-        uses: nwtgck/actions-netlify@v2
+        uses: nwtgck/actions-netlify@v4
         with:
           publish-dir: './docs'
           production-branch: main
