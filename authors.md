@@ -8,7 +8,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/hubverse-org/hubStyle/blob/main/inst/CITATION)
+[`inst/CITATION`](https://github.com/hubverse-org/hubStyle/blob/v0.0.3/inst/CITATION)
 
 Krystalli A (2024). *hubStyle: 'pkgdown' Template for hubverse
 Packages*. R package version 0.0.0.9000,
