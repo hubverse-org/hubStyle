@@ -1,3 +1,5 @@
+# hubStyle (development version)
+
 # hubStyle 0.0.3
 
 * Links in the package site's `llms.txt` now resolve. Article links previously returned 404 (#21).
