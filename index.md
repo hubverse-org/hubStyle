@@ -13,6 +13,7 @@ You can install the development version of hubStyle from
 [GitHub](https://github.com/) with:
 
 ``` r
+
 # install.packages("remotes")
 remotes::install_github("hubverse-org/hubStyle")
 ```
@@ -37,18 +38,21 @@ You can use the following R code to add the above to your `DESCRIPTION`
 file:
 
 ``` r
+
 hubDevs::add_website_needs()
 ```
 
 ## Code of Conduct
 
 Please note that the hubStyle package is released with a [Contributor
-Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project,
-you agree to abide by its terms.
+Code of
+Conduct](https://hubverse-org.github.io/hubStyle/CODE_OF_CONDUCT.md). By
+contributing to this project, you agree to abide by its terms.
 
 ## Contributing
 
 Interested in contributing back to the open-source Hubverse project?
 Learn more about how to [get involved in the Hubverse
 Community](https://hubverse.io/community/) or [how to contribute to the
-hubStyle package](CONTRIBUTING.md).
+hubStyle
+package](https://hubverse-org.github.io/hubStyle/CONTRIBUTING.md).
