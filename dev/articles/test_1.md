@@ -7,7 +7,8 @@ library(hubStyle)
 
 ## Header 1.2
 
-Lorem Ipsum [link]()
+Lorem Ipsum
+[link](https://hubverse-org.github.io/hubStyle/dev/articles/)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales,
 neque quis iaculis mollis, ex leo varius nunc, quis rhoncus tortor nisi
@@ -105,7 +106,8 @@ blandit.
 
 ## Header 2.2
 
-Lorem Ipsum [link]()
+Lorem Ipsum
+[link](https://hubverse-org.github.io/hubStyle/dev/articles/)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales,
 neque quis iaculis mollis, ex leo varius nunc, quis rhoncus tortor nisi

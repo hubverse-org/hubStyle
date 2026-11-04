@@ -2,4 +2,4 @@
 
 ### All vignettes
 
-- [test_1](test_1.md):
+- [test_1](https://hubverse-org.github.io/hubStyle/dev/articles/test_1.md):
